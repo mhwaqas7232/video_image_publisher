@@ -1,0 +1,2 @@
+Invoking command in '/root/video_image_publisher/build/video_image_publisher': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /root/video_image_publisher -DCMAKE_INSTALL_PREFIX=/root/video_image_publisher/install/video_image_publisher
+Invoked command in '/root/video_image_publisher/build/video_image_publisher' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /root/video_image_publisher -DCMAKE_INSTALL_PREFIX=/root/video_image_publisher/install/video_image_publisher

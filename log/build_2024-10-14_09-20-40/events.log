@@ -1,0 +1,218 @@
+[0.000000] (-) TimerEvent: {}
+[0.000195] (video_image_publisher) JobQueued: {'identifier': 'video_image_publisher', 'dependencies': OrderedDict()}
+[0.000237] (video_image_publisher) JobStarted: {'identifier': 'video_image_publisher'}
+[0.022902] (video_image_publisher) JobProgress: {'identifier': 'video_image_publisher', 'progress': 'cmake'}
+[0.025060] (video_image_publisher) Command: {'cmd': ['/usr/bin/cmake', '/root/video_image_publisher', '-DCMAKE_INSTALL_PREFIX=/root/video_image_publisher/install/video_image_publisher'], 'cwd': '/root/video_image_publisher/build/video_image_publisher', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HOSTNAME', 'docker-desktop'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/lib:'), ('HOME', '/root'), ('OLDPWD', '/root/video_image_publisher/src'), ('ROS_PYTHON_VERSION', '3'), ('LC_CTYPE', 'C.UTF-8'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/root/.local/bin'), ('DISPLAY', '10.132.172.234:0'), ('XAUTHORITY', ''), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/root/video_image_publisher/build/video_image_publisher'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.099381] (-) TimerEvent: {}
+[0.199904] (-) TimerEvent: {}
+[0.216521] (video_image_publisher) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.300085] (-) TimerEvent: {}
+[0.400527] (-) TimerEvent: {}
+[0.464401] (video_image_publisher) StdoutLine: {'line': b'-- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.500668] (-) TimerEvent: {}
+[0.601208] (-) TimerEvent: {}
+[0.627419] (video_image_publisher) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.637043] (video_image_publisher) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.660863] (video_image_publisher) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.695545] (video_image_publisher) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.701447] (-) TimerEvent: {}
+[0.734036] (video_image_publisher) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.801634] (-) TimerEvent: {}
+[0.850391] (video_image_publisher) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.857790] (video_image_publisher) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.901830] (-) TimerEvent: {}
+[1.002248] (-) TimerEvent: {}
+[1.102621] (-) TimerEvent: {}
+[1.111905] (video_image_publisher) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.202797] (-) TimerEvent: {}
+[1.281909] (video_image_publisher) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[1.303068] (-) TimerEvent: {}
+[1.375979] (video_image_publisher) StdoutLine: {'line': b'-- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)\n'}
+[1.403279] (-) TimerEvent: {}
+[1.411581] (video_image_publisher) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.503692] (-) TimerEvent: {}
+[1.545945] (video_image_publisher) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.546283] (video_image_publisher) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /root/video_image_publisher/include\n'}
+[1.546401] (video_image_publisher) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.548352] (video_image_publisher) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[1.551043] (video_image_publisher) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.552847] (video_image_publisher) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[1.561129] (video_image_publisher) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.561309] (video_image_publisher) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.563019] (video_image_publisher) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.568609] (video_image_publisher) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.604033] (-) TimerEvent: {}
+[1.631505] (video_image_publisher) StdoutLine: {'line': b'-- Generating done\n'}
+[1.634517] (video_image_publisher) StdoutLine: {'line': b'-- Build files have been written to: /root/video_image_publisher/build/video_image_publisher\n'}
+[1.652189] (video_image_publisher) CommandEnded: {'returncode': 0}
+[1.655251] (video_image_publisher) JobProgress: {'identifier': 'video_image_publisher', 'progress': 'build'}
+[1.655332] (video_image_publisher) Command: {'cmd': ['/usr/bin/cmake', '--build', '/root/video_image_publisher/build/video_image_publisher', '--', '-j8', '-l8'], 'cwd': '/root/video_image_publisher/build/video_image_publisher', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HOSTNAME', 'docker-desktop'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/lib:'), ('HOME', '/root'), ('OLDPWD', '/root/video_image_publisher/src'), ('ROS_PYTHON_VERSION', '3'), ('LC_CTYPE', 'C.UTF-8'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/root/.local/bin'), ('DISPLAY', '10.132.172.234:0'), ('XAUTHORITY', ''), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/root/video_image_publisher/build/video_image_publisher'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[1.704212] (-) TimerEvent: {}
+[1.711149] (video_image_publisher) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/video_publisher.dir/src/video_publisher.cpp.o\x1b[0m\n'}
+[1.711403] (video_image_publisher) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/video_subscriber.dir/src/video_subscriber.cpp.o\x1b[0m\n'}
+[1.804340] (-) TimerEvent: {}
+[1.904665] (-) TimerEvent: {}
+[2.005029] (-) TimerEvent: {}
+[2.105432] (-) TimerEvent: {}
+[2.205878] (-) TimerEvent: {}
+[2.306264] (-) TimerEvent: {}
+[2.406650] (-) TimerEvent: {}
+[2.507030] (-) TimerEvent: {}
+[2.607422] (-) TimerEvent: {}
+[2.707835] (-) TimerEvent: {}
+[2.808157] (-) TimerEvent: {}
+[2.908480] (-) TimerEvent: {}
+[3.008889] (-) TimerEvent: {}
+[3.109326] (-) TimerEvent: {}
+[3.209745] (-) TimerEvent: {}
+[3.310171] (-) TimerEvent: {}
+[3.410570] (-) TimerEvent: {}
+[3.510966] (-) TimerEvent: {}
+[3.611356] (-) TimerEvent: {}
+[3.711779] (-) TimerEvent: {}
+[3.812239] (-) TimerEvent: {}
+[3.912601] (-) TimerEvent: {}
+[4.013076] (-) TimerEvent: {}
+[4.113582] (-) TimerEvent: {}
+[4.214030] (-) TimerEvent: {}
+[4.314476] (-) TimerEvent: {}
+[4.414834] (-) TimerEvent: {}
+[4.515301] (-) TimerEvent: {}
+[4.615710] (-) TimerEvent: {}
+[4.716096] (-) TimerEvent: {}
+[4.816473] (-) TimerEvent: {}
+[4.916887] (-) TimerEvent: {}
+[5.017386] (-) TimerEvent: {}
+[5.117760] (-) TimerEvent: {}
+[5.218135] (-) TimerEvent: {}
+[5.318503] (-) TimerEvent: {}
+[5.418965] (-) TimerEvent: {}
+[5.519382] (-) TimerEvent: {}
+[5.619829] (-) TimerEvent: {}
+[5.720179] (-) TimerEvent: {}
+[5.820554] (-) TimerEvent: {}
+[5.920927] (-) TimerEvent: {}
+[6.021317] (-) TimerEvent: {}
+[6.121678] (-) TimerEvent: {}
+[6.222133] (-) TimerEvent: {}
+[6.322619] (-) TimerEvent: {}
+[6.423155] (-) TimerEvent: {}
+[6.523548] (-) TimerEvent: {}
+[6.624933] (-) TimerEvent: {}
+[6.726047] (-) TimerEvent: {}
+[6.826465] (-) TimerEvent: {}
+[6.926857] (-) TimerEvent: {}
+[7.027198] (-) TimerEvent: {}
+[7.127572] (-) TimerEvent: {}
+[7.227996] (-) TimerEvent: {}
+[7.328417] (-) TimerEvent: {}
+[7.428847] (-) TimerEvent: {}
+[7.529238] (-) TimerEvent: {}
+[7.629610] (-) TimerEvent: {}
+[7.730013] (-) TimerEvent: {}
+[7.830458] (-) TimerEvent: {}
+[7.930841] (-) TimerEvent: {}
+[8.031234] (-) TimerEvent: {}
+[8.131639] (-) TimerEvent: {}
+[8.232109] (-) TimerEvent: {}
+[8.332546] (-) TimerEvent: {}
+[8.432982] (-) TimerEvent: {}
+[8.533443] (-) TimerEvent: {}
+[8.633838] (-) TimerEvent: {}
+[8.734232] (-) TimerEvent: {}
+[8.834729] (-) TimerEvent: {}
+[8.935255] (-) TimerEvent: {}
+[9.035687] (-) TimerEvent: {}
+[9.136101] (-) TimerEvent: {}
+[9.236514] (-) TimerEvent: {}
+[9.336941] (-) TimerEvent: {}
+[9.437349] (-) TimerEvent: {}
+[9.537710] (-) TimerEvent: {}
+[9.638110] (-) TimerEvent: {}
+[9.738512] (-) TimerEvent: {}
+[9.838889] (-) TimerEvent: {}
+[9.939282] (-) TimerEvent: {}
+[10.039621] (-) TimerEvent: {}
+[10.140042] (-) TimerEvent: {}
+[10.240468] (-) TimerEvent: {}
+[10.340876] (-) TimerEvent: {}
+[10.441347] (-) TimerEvent: {}
+[10.519175] (video_image_publisher) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable video_publisher\x1b[0m\n'}
+[10.541470] (-) TimerEvent: {}
+[10.641866] (-) TimerEvent: {}
+[10.742203] (-) TimerEvent: {}
+[10.842589] (-) TimerEvent: {}
+[10.943030] (-) TimerEvent: {}
+[10.985135] (video_image_publisher) StderrLine: {'line': b'/usr/bin/ld: warning: libopencv_core.so.4.5d, needed by /opt/ros/humble/lib/libcv_bridge.so, may conflict with libopencv_core.so.410\n'}
+[11.043218] (-) TimerEvent: {}
+[11.143544] (-) TimerEvent: {}
+[11.243919] (-) TimerEvent: {}
+[11.344321] (-) TimerEvent: {}
+[11.444726] (-) TimerEvent: {}
+[11.545106] (-) TimerEvent: {}
+[11.645434] (-) TimerEvent: {}
+[11.745840] (-) TimerEvent: {}
+[11.846251] (-) TimerEvent: {}
+[11.946591] (-) TimerEvent: {}
+[11.955768] (video_image_publisher) StdoutLine: {'line': b'[ 75%] Built target video_publisher\n'}
+[12.046802] (-) TimerEvent: {}
+[12.147210] (-) TimerEvent: {}
+[12.247695] (-) TimerEvent: {}
+[12.348164] (-) TimerEvent: {}
+[12.448651] (-) TimerEvent: {}
+[12.549071] (-) TimerEvent: {}
+[12.649433] (-) TimerEvent: {}
+[12.749856] (-) TimerEvent: {}
+[12.850262] (-) TimerEvent: {}
+[12.950662] (-) TimerEvent: {}
+[13.051058] (-) TimerEvent: {}
+[13.151438] (-) TimerEvent: {}
+[13.251824] (-) TimerEvent: {}
+[13.352182] (-) TimerEvent: {}
+[13.452515] (-) TimerEvent: {}
+[13.552930] (-) TimerEvent: {}
+[13.653382] (-) TimerEvent: {}
+[13.753768] (-) TimerEvent: {}
+[13.854200] (-) TimerEvent: {}
+[13.954605] (-) TimerEvent: {}
+[14.055057] (-) TimerEvent: {}
+[14.155599] (-) TimerEvent: {}
+[14.256017] (-) TimerEvent: {}
+[14.356415] (-) TimerEvent: {}
+[14.390061] (video_image_publisher) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable video_subscriber\x1b[0m\n'}
+[14.456605] (-) TimerEvent: {}
+[14.557010] (-) TimerEvent: {}
+[14.657381] (-) TimerEvent: {}
+[14.757734] (-) TimerEvent: {}
+[14.858100] (-) TimerEvent: {}
+[14.958496] (-) TimerEvent: {}
+[15.058918] (-) TimerEvent: {}
+[15.159292] (-) TimerEvent: {}
+[15.171879] (video_image_publisher) StdoutLine: {'line': b'[100%] Built target video_subscriber\n'}
+[15.182981] (video_image_publisher) CommandEnded: {'returncode': 0}
+[15.216749] (video_image_publisher) JobProgress: {'identifier': 'video_image_publisher', 'progress': 'install'}
+[15.229755] (video_image_publisher) Command: {'cmd': ['/usr/bin/cmake', '--install', '/root/video_image_publisher/build/video_image_publisher'], 'cwd': '/root/video_image_publisher/build/video_image_publisher', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HOSTNAME', 'docker-desktop'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/lib:'), ('HOME', '/root'), ('OLDPWD', '/root/video_image_publisher/src'), ('ROS_PYTHON_VERSION', '3'), ('LC_CTYPE', 'C.UTF-8'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/root/.local/bin'), ('DISPLAY', '10.132.172.234:0'), ('XAUTHORITY', ''), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/root/video_image_publisher/build/video_image_publisher'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[15.237435] (video_image_publisher) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[15.237950] (video_image_publisher) StdoutLine: {'line': b'-- Installing: /root/video_image_publisher/install/video_image_publisher/lib/video_image_publisher/video_publisher\n'}
+[15.239284] (video_image_publisher) StdoutLine: {'line': b'-- Set runtime path of "/root/video_image_publisher/install/video_image_publisher/lib/video_image_publisher/video_publisher" to ""\n'}
+[15.239414] (video_image_publisher) StdoutLine: {'line': b'-- Installing: /root/video_image_publisher/install/video_image_publisher/lib/video_image_publisher/video_subscriber\n'}
+[15.243016] (video_image_publisher) StdoutLine: {'line': b'-- Set runtime path of "/root/video_image_publisher/install/video_image_publisher/lib/video_image_publisher/video_subscriber" to ""\n'}
+[15.243321] (video_image_publisher) StdoutLine: {'line': b'-- Installing: /root/video_image_publisher/install/video_image_publisher/share/ament_index/resource_index/package_run_dependencies/video_image_publisher\n'}
+[15.243741] (video_image_publisher) StdoutLine: {'line': b'-- Installing: /root/video_image_publisher/install/video_image_publisher/share/ament_index/resource_index/parent_prefix_path/video_image_publisher\n'}
+[15.244204] (video_image_publisher) StdoutLine: {'line': b'-- Installing: /root/video_image_publisher/install/video_image_publisher/share/video_image_publisher/environment/ament_prefix_path.sh\n'}
+[15.244504] (video_image_publisher) StdoutLine: {'line': b'-- Installing: /root/video_image_publisher/install/video_image_publisher/share/video_image_publisher/environment/ament_prefix_path.dsv\n'}
+[15.244624] (video_image_publisher) StdoutLine: {'line': b'-- Installing: /root/video_image_publisher/install/video_image_publisher/share/video_image_publisher/environment/path.sh\n'}
+[15.244875] (video_image_publisher) StdoutLine: {'line': b'-- Installing: /root/video_image_publisher/install/video_image_publisher/share/video_image_publisher/environment/path.dsv\n'}
+[15.245132] (video_image_publisher) StdoutLine: {'line': b'-- Installing: /root/video_image_publisher/install/video_image_publisher/share/video_image_publisher/local_setup.bash\n'}
+[15.245376] (video_image_publisher) StdoutLine: {'line': b'-- Installing: /root/video_image_publisher/install/video_image_publisher/share/video_image_publisher/local_setup.sh\n'}
+[15.245673] (video_image_publisher) StdoutLine: {'line': b'-- Installing: /root/video_image_publisher/install/video_image_publisher/share/video_image_publisher/local_setup.zsh\n'}
+[15.245997] (video_image_publisher) StdoutLine: {'line': b'-- Installing: /root/video_image_publisher/install/video_image_publisher/share/video_image_publisher/local_setup.dsv\n'}
+[15.246116] (video_image_publisher) StdoutLine: {'line': b'-- Installing: /root/video_image_publisher/install/video_image_publisher/share/video_image_publisher/package.dsv\n'}
+[15.246319] (video_image_publisher) StdoutLine: {'line': b'-- Installing: /root/video_image_publisher/install/video_image_publisher/share/ament_index/resource_index/packages/video_image_publisher\n'}
+[15.246727] (video_image_publisher) StdoutLine: {'line': b'-- Installing: /root/video_image_publisher/install/video_image_publisher/share/video_image_publisher/cmake/video_image_publisherConfig.cmake\n'}
+[15.246963] (video_image_publisher) StdoutLine: {'line': b'-- Installing: /root/video_image_publisher/install/video_image_publisher/share/video_image_publisher/cmake/video_image_publisherConfig-version.cmake\n'}
+[15.247231] (video_image_publisher) StdoutLine: {'line': b'-- Installing: /root/video_image_publisher/install/video_image_publisher/share/video_image_publisher/package.xml\n'}
+[15.249446] (video_image_publisher) CommandEnded: {'returncode': 0}
+[15.259477] (-) TimerEvent: {}
+[15.323918] (video_image_publisher) JobEnded: {'identifier': 'video_image_publisher', 'rc': 0}
+[15.324675] (-) EventReactorShutdown: {}

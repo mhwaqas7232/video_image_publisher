@@ -1,0 +1,24 @@
+[35m[1mConsolidate compiler generated dependencies of target video_publisher[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/video_subscriber.dir/src/video_subscriber.cpp.o[0m
+[ 75%] Built target video_publisher
+[100%] [32m[1mLinking CXX executable video_subscriber[0m
+[100%] Built target video_subscriber
+-- Install configuration: ""
+-- Up-to-date: /root/video_image_publisher/install/video_image_publisher/lib/video_image_publisher/video_publisher
+-- Installing: /root/video_image_publisher/install/video_image_publisher/lib/video_image_publisher/video_subscriber
+-- Set runtime path of "/root/video_image_publisher/install/video_image_publisher/lib/video_image_publisher/video_subscriber" to ""
+-- Up-to-date: /root/video_image_publisher/install/video_image_publisher/share/ament_index/resource_index/package_run_dependencies/video_image_publisher
+-- Up-to-date: /root/video_image_publisher/install/video_image_publisher/share/ament_index/resource_index/parent_prefix_path/video_image_publisher
+-- Up-to-date: /root/video_image_publisher/install/video_image_publisher/share/video_image_publisher/environment/ament_prefix_path.sh
+-- Up-to-date: /root/video_image_publisher/install/video_image_publisher/share/video_image_publisher/environment/ament_prefix_path.dsv
+-- Up-to-date: /root/video_image_publisher/install/video_image_publisher/share/video_image_publisher/environment/path.sh
+-- Up-to-date: /root/video_image_publisher/install/video_image_publisher/share/video_image_publisher/environment/path.dsv
+-- Up-to-date: /root/video_image_publisher/install/video_image_publisher/share/video_image_publisher/local_setup.bash
+-- Up-to-date: /root/video_image_publisher/install/video_image_publisher/share/video_image_publisher/local_setup.sh
+-- Up-to-date: /root/video_image_publisher/install/video_image_publisher/share/video_image_publisher/local_setup.zsh
+-- Up-to-date: /root/video_image_publisher/install/video_image_publisher/share/video_image_publisher/local_setup.dsv
+-- Installing: /root/video_image_publisher/install/video_image_publisher/share/video_image_publisher/package.dsv
+-- Up-to-date: /root/video_image_publisher/install/video_image_publisher/share/ament_index/resource_index/packages/video_image_publisher
+-- Up-to-date: /root/video_image_publisher/install/video_image_publisher/share/video_image_publisher/cmake/video_image_publisherConfig.cmake
+-- Up-to-date: /root/video_image_publisher/install/video_image_publisher/share/video_image_publisher/cmake/video_image_publisherConfig-version.cmake
+-- Up-to-date: /root/video_image_publisher/install/video_image_publisher/share/video_image_publisher/package.xml

@@ -1,0 +1,29 @@
+[0.021s] Invoking command in '/root/video_image_publisher/build/video_image_publisher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /root/video_image_publisher/build/video_image_publisher -- -j8 -l8
+[0.066s] [35m[1mConsolidate compiler generated dependencies of target video_publisher[0m
+[0.082s] [ 25%] [32mBuilding CXX object CMakeFiles/video_subscriber.dir/src/video_subscriber.cpp.o[0m
+[0.089s] [ 75%] Built target video_publisher
+[11.175s] [100%] [32m[1mLinking CXX executable video_subscriber[0m
+[11.437s] /usr/bin/ld: warning: libopencv_imgcodecs.so.4.5d, needed by /opt/ros/humble/lib/libcv_bridge.so, may conflict with libopencv_imgcodecs.so.410
+[11.894s] [100%] Built target video_subscriber
+[11.909s] Invoked command in '/root/video_image_publisher/build/video_image_publisher' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /root/video_image_publisher/build/video_image_publisher -- -j8 -l8
+[11.956s] Invoking command in '/root/video_image_publisher/build/video_image_publisher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /root/video_image_publisher/build/video_image_publisher
+[11.964s] -- Install configuration: ""
+[11.964s] -- Up-to-date: /root/video_image_publisher/install/video_image_publisher/lib/video_image_publisher/video_publisher
+[11.965s] -- Installing: /root/video_image_publisher/install/video_image_publisher/lib/video_image_publisher/video_subscriber
+[11.971s] -- Set runtime path of "/root/video_image_publisher/install/video_image_publisher/lib/video_image_publisher/video_subscriber" to ""
+[11.972s] -- Up-to-date: /root/video_image_publisher/install/video_image_publisher/share/ament_index/resource_index/package_run_dependencies/video_image_publisher
+[11.972s] -- Up-to-date: /root/video_image_publisher/install/video_image_publisher/share/ament_index/resource_index/parent_prefix_path/video_image_publisher
+[11.972s] -- Up-to-date: /root/video_image_publisher/install/video_image_publisher/share/video_image_publisher/environment/ament_prefix_path.sh
+[11.972s] -- Up-to-date: /root/video_image_publisher/install/video_image_publisher/share/video_image_publisher/environment/ament_prefix_path.dsv
+[11.972s] -- Up-to-date: /root/video_image_publisher/install/video_image_publisher/share/video_image_publisher/environment/path.sh
+[11.973s] -- Up-to-date: /root/video_image_publisher/install/video_image_publisher/share/video_image_publisher/environment/path.dsv
+[11.973s] -- Up-to-date: /root/video_image_publisher/install/video_image_publisher/share/video_image_publisher/local_setup.bash
+[11.973s] -- Up-to-date: /root/video_image_publisher/install/video_image_publisher/share/video_image_publisher/local_setup.sh
+[11.973s] -- Up-to-date: /root/video_image_publisher/install/video_image_publisher/share/video_image_publisher/local_setup.zsh
+[11.973s] -- Up-to-date: /root/video_image_publisher/install/video_image_publisher/share/video_image_publisher/local_setup.dsv
+[11.973s] -- Installing: /root/video_image_publisher/install/video_image_publisher/share/video_image_publisher/package.dsv
+[11.973s] -- Up-to-date: /root/video_image_publisher/install/video_image_publisher/share/ament_index/resource_index/packages/video_image_publisher
+[11.974s] -- Up-to-date: /root/video_image_publisher/install/video_image_publisher/share/video_image_publisher/cmake/video_image_publisherConfig.cmake
+[11.974s] -- Up-to-date: /root/video_image_publisher/install/video_image_publisher/share/video_image_publisher/cmake/video_image_publisherConfig-version.cmake
+[11.974s] -- Up-to-date: /root/video_image_publisher/install/video_image_publisher/share/video_image_publisher/package.xml
+[11.976s] Invoked command in '/root/video_image_publisher/build/video_image_publisher' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /root/video_image_publisher/build/video_image_publisher

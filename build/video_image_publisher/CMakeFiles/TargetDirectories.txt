@@ -1,0 +1,11 @@
+/root/video_image_publisher/build/video_image_publisher/CMakeFiles/uninstall.dir
+/root/video_image_publisher/build/video_image_publisher/CMakeFiles/video_image_publisher_uninstall.dir
+/root/video_image_publisher/build/video_image_publisher/CMakeFiles/video_publisher.dir
+/root/video_image_publisher/build/video_image_publisher/CMakeFiles/video_subscriber.dir
+/root/video_image_publisher/build/video_image_publisher/CMakeFiles/test.dir
+/root/video_image_publisher/build/video_image_publisher/CMakeFiles/edit_cache.dir
+/root/video_image_publisher/build/video_image_publisher/CMakeFiles/rebuild_cache.dir
+/root/video_image_publisher/build/video_image_publisher/CMakeFiles/list_install_components.dir
+/root/video_image_publisher/build/video_image_publisher/CMakeFiles/install.dir
+/root/video_image_publisher/build/video_image_publisher/CMakeFiles/install/local.dir
+/root/video_image_publisher/build/video_image_publisher/CMakeFiles/install/strip.dir

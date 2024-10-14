@@ -1,0 +1,4 @@
+[31mCMake Error at CMakeLists.txt:14 (nclude_directories):
+  Unknown CMake command "nclude_directories".
+
+[0m

@@ -1,0 +1,4 @@
+Invoking command in '/root/video_image_publisher/build/video_image_publisher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /root/video_image_publisher/build/video_image_publisher -- -j8 -l8
+Invoked command in '/root/video_image_publisher/build/video_image_publisher' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /root/video_image_publisher/build/video_image_publisher -- -j8 -l8
+Invoking command in '/root/video_image_publisher/build/video_image_publisher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /root/video_image_publisher/build/video_image_publisher
+Invoked command in '/root/video_image_publisher/build/video_image_publisher' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /root/video_image_publisher/build/video_image_publisher
